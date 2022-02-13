@@ -1,0 +1,8 @@
+	<Mod
+		name="Chests Don't Spawn Bombs"
+		description="Chests Don't Spawn Bombs"
+		tags="tweaks"
+		dont_upload_folders="FOLDER_TO_IGNORE1|FOLDER_TO_IGNORE2"
+		dont_upload_files="FILE_TO_IGNORE1|FILE_TO_IGNORE2"
+	> 
+	</Mod>

@@ -1,0 +1,1 @@
+-- ModLuaFileAppend("data/scripts/animals/boss_dragon_death.lua", "mods/dragon_drops_health_multiplier/data/scripts/animals/boss_dragon_death.lua")

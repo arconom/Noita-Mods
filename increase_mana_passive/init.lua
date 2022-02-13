@@ -1,0 +1,1 @@
+ModLuaFileAppend("data/scripts/gun/gun_actions.lua", "mods/increase_mana_passive/files/entities/misc/custom_cards/add_gun_action.lua")

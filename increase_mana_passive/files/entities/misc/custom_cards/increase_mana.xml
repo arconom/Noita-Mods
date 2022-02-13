@@ -1,0 +1,41 @@
+<Entity _tags="mana,enabled_in_inventory,enabled_in_hand" _enabled="1">
+	
+	<Base file="data/entities/base_custom_card.xml" > 
+	</Base>
+
+	<InheritTransformComponent
+		_tags="enabled_in_world,enabled_in_hand" >
+	  <Transform 
+		position.x="8" 
+		position.y="0" >
+	  </Transform>
+	</InheritTransformComponent>
+	
+	<LightComponent 
+		_tags="enabled_in_hand,item_identified"
+		_enabled="1" 
+		radius="130"
+		fade_out_time="1.5" 
+		r="220"
+		g="180"
+		b="240" >
+	</LightComponent>
+
+	<AbilityComponent
+		_enabled="1" 
+	mana="0"
+    mana_max="0"
+    mana_charge_speed="0"
+	ui_name="Increase Mana"
+	>
+	</AbilityComponent>
+
+	<LuaComponent
+		_enabled="1" 
+		 _tags="mana,enabled_in_hand"
+	script_source_file="mods/increase_mana_passive/files/entities/misc/custom_cards/increase_mana_on_added.lua"
+	execute_every_n_frame="500"
+	>
+	</LuaComponent>
+
+</Entity>
